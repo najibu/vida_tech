@@ -53,3 +53,19 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 gem 'devise'
 
 gem 'simple_form'
+
+gem 'will_paginate', '~> 3.1.0'
+
+gem 'will_paginate-bootstrap'
+
+group :test do
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'factory_girl'
+  gem 'ffaker'
+  gem 'rspec-its'
+  gem 'rspec-rails'
+  gem 'vcr'
+  gem 'webmock'
+  gem 'shoulda-matchers', '~> 3.1'
+end

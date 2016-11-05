@@ -1,24 +1,11 @@
-# README
+# Installation guide 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+run: <code>bundle install</code>
+run: <code>rails db:migrate</code>
+run: <code>rails db:seed</code>
 
-Things you may want to cover:
+### Running the test suite
+run: <code>rspec</code>
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+###To start the rails serve
+run: <code>rails s</code>
